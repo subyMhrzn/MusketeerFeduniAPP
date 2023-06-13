@@ -1,0 +1,91 @@
+{
+  "project_info": {
+    "project_number": "101393840835",
+    "firebase_url": "https://musketeerappproject-default-rtdb.firebaseio.com",
+    "project_id": "musketeerappproject",
+    "storage_bucket": "musketeerappproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101393840835:android:99e71644439e84c13bc076",
+        "android_client_info": {
+          "package_name": "com.example.musketeer_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101393840835-m51clarq2fmcut9jj2ud6stgbb0th4ac.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.musketeer_app",
+            "certificate_hash": "50d04a4106ee7b1c0c19f698090c24e7eac279d1"
+          }
+        },
+        {
+          "client_id": "101393840835-aks2uiotm6o9n16aqon1238rokhfqp8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC84jP1rkzaH94oMch5ApKYSlsgOKT6xpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101393840835-aks2uiotm6o9n16aqon1238rokhfqp8s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "101393840835-1kr4u2n9ukdmf0h707tq2l8fbrr7ahnd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.receiptScanner"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101393840835:android:b23baf9f591419f13bc076",
+        "android_client_info": {
+          "package_name": "com.example.receipt_scanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101393840835-aks2uiotm6o9n16aqon1238rokhfqp8s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC84jP1rkzaH94oMch5ApKYSlsgOKT6xpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101393840835-aks2uiotm6o9n16aqon1238rokhfqp8s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "101393840835-1kr4u2n9ukdmf0h707tq2l8fbrr7ahnd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.receiptScanner"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+com.google_mlkit_face_detection-core-1.6.0-0 C:\Users\HP\.gradle\caches\transforms-3\1141b72fb8be4e566e7814849b1aa3a2\transformed\core-1.6.0\res
+com.google_mlkit_face_detection-jetified-play-services-base-18.1.0-1 C:\Users\HP\.gradle\caches\transforms-3\237d3081442428b84c22a164c1a9fd7b\transformed\jetified-play-services-base-18.1.0\res
+com.google_mlkit_face_detection-jetified-window-1.0.0-beta04-2 C:\Users\HP\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\res
+com.google_mlkit_face_detection-jetified-annotation-experimental-1.1.0-3 C:\Users\HP\.gradle\caches\transforms-3\a6362f1fb79a6245a27920bb99ff99c3\transformed\jetified-annotation-experimental-1.1.0\res
+com.google_mlkit_face_detection-jetified-play-services-basement-18.1.0-4 C:\Users\HP\.gradle\caches\transforms-3\ad3fb7e0e58165c0e3c87f8f0d79631f\transformed\jetified-play-services-basement-18.1.0\res
+com.google_mlkit_face_detection-jetified-window-java-1.0.0-beta04-5 C:\Users\HP\.gradle\caches\transforms-3\ed438543a8e9ffa856a2b095c92f0ea3\transformed\jetified-window-java-1.0.0-beta04\res
+com.google_mlkit_face_detection-main-6 C:\Users\HP\AppData\Local\Pub\Cache\hosted\pub.dev\google_mlkit_face_detection-0.7.0\android\src\main\res
+com.google_mlkit_face_detection-release-7 C:\Users\HP\AppData\Local\Pub\Cache\hosted\pub.dev\google_mlkit_face_detection-0.7.0\android\src\release\res
+com.google_mlkit_face_detection-packaged_res-8 C:\Users\HP\Desktop\Musketeer-project-LoginPage\build\google_mlkit_commons\intermediates\packaged_res\release
+com.google_mlkit_face_detection-pngs-9 C:\Users\HP\Desktop\Musketeer-project-LoginPage\build\google_mlkit_face_detection\generated\res\pngs\release
+com.google_mlkit_face_detection-resValues-10 C:\Users\HP\Desktop\Musketeer-project-LoginPage\build\google_mlkit_face_detection\generated\res\resValues\release
+com.google_mlkit_face_detection-rs-11 C:\Users\HP\Desktop\Musketeer-project-LoginPage\build\google_mlkit_face_detection\generated\res\rs\release
+com.google_mlkit_face_detection-mergeReleaseResources-12 C:\Users\HP\Desktop\Musketeer-project-LoginPage\build\google_mlkit_face_detection\intermediates\incremental\release\mergeReleaseResources\merged.dir
+com.google_mlkit_face_detection-mergeReleaseResources-13 C:\Users\HP\Desktop\Musketeer-project-LoginPage\build\google_mlkit_face_detection\intermediates\incremental\release\mergeReleaseResources\stripped.dir
+com.google_mlkit_face_detection-merged_res-14 C:\Users\HP\Desktop\Musketeer-project-LoginPage\build\google_mlkit_face_detection\intermediates\merged_res\release

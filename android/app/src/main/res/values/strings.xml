@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Musketeer login</string>
+    <string name="facebook_app_id">572860851589770</string>
+    <string name="fb_login_protocol_scheme">fb572860851589770</string>
+    <string name="facebook_client_token">052a9f058edb485063fe7a30a6a0b26a</string>
+</resources>

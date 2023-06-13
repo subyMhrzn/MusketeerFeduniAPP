@@ -1,0 +1,375 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.musketeer_app"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:3:6-5:15
+12        <provider android:authorities="com.facebook.katana.provider.PlatformProvider" />
+12-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:4:9-89
+12-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:4:19-86
+13
+14        <package android:name="com.facebook.katana" />
+14-->[com.facebook.android:facebook-common:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\464eb365ad63b525b3cc1cfc47abc57b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:18:9-55
+14-->[com.facebook.android:facebook-common:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\464eb365ad63b525b3cc1cfc47abc57b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:18:18-52
+15    </queries>
+16
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:6:5-66
+17-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:6:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:5-79
+18-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:26:22-76
+19    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+19-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:16:5-79
+19-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:16:22-76
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- <uses-permission android:name="com.google.android.gms.permission.AD_ID" tools:node="remove"/> -->
+20-->[com.android.installreferrer:installreferrer:1.0] C:\Users\HP\.gradle\caches\transforms-3\f9ea7fedc119e5e61862df1090373d9d\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+20-->[com.android.installreferrer:installreferrer:1.0] C:\Users\HP\.gradle\caches\transforms-3\f9ea7fedc119e5e61862df1090373d9d\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+21    <application
+22        android:name="android.app.Application"
+22-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:11:9-42
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.6.0] C:\Users\HP\.gradle\caches\transforms-3\1141b72fb8be4e566e7814849b1aa3a2\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+24        android:icon="@mipmap/ic_launcher"
+24-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:12:9-43
+25        android:label="musketeer_app"
+25-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:10:9-38
+26        android:supportsRtl="true" >
+26-->[com.facebook.android:facebook-android-sdk:8.2.0] C:\Users\HP\.gradle\caches\transforms-3\58df331cb122479025d043f2fdd65d11\transformed\jetified-facebook-android-sdk-8.2.0\AndroidManifest.xml:28:18-44
+27        <meta-data
+27-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:14:9-16:54
+28            android:name="com.facebook.sdk.ApplicationId"
+28-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:15:12-57
+29            android:value="@string/facebook_app_id" />
+29-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:16:12-51
+30        <meta-data
+30-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:17:8-19:59
+31            android:name="com.facebook.sdk.ClientToken"
+31-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:18:12-55
+32            android:value="@string/facebook_client_token" />
+32-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:19:12-57
+33
+34        <activity
+34-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:21:9-24:48
+35            android:name="com.facebook.FacebookActivity"
+35-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:21:19-63
+36            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+36-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:22:13-117
+37            android:label="@string/app_name"
+37-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:24:13-45
+38            android:theme="@style/com_facebook_activity_theme" />
+38-->[com.facebook.android:facebook-common:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\464eb365ad63b525b3cc1cfc47abc57b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:25:13-63
+39        <activity
+39-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:26:9-35:20
+40            android:name="com.facebook.CustomTabActivity"
+40-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:27:13-58
+41            android:exported="true" >
+41-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:28:13-36
+42            <intent-filter>
+42-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:29:13-34:29
+43                <action android:name="android.intent.action.VIEW" />
+43-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:30:17-69
+43-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:30:25-66
+44
+45                <category android:name="android.intent.category.DEFAULT" />
+45-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:31:17-76
+45-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:31:27-73
+46                <category android:name="android.intent.category.BROWSABLE" />
+46-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:32:17-78
+46-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:32:27-75
+47
+48                <data android:scheme="@string/fb_login_protocol_scheme" />
+48-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:33:17-75
+48-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:33:23-72
+49            </intent-filter>
+50            <intent-filter>
+50-->[com.facebook.android:facebook-common:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\464eb365ad63b525b3cc1cfc47abc57b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:31:13-40:29
+51                <action android:name="android.intent.action.VIEW" />
+51-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:30:17-69
+51-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:30:25-66
+52
+53                <category android:name="android.intent.category.DEFAULT" />
+53-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:31:17-76
+53-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:31:27-73
+54                <category android:name="android.intent.category.BROWSABLE" />
+54-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:32:17-78
+54-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:32:27-75
+55
+56                <data
+56-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:33:17-75
+57                    android:host="cct.com.example.musketeer_app"
+58                    android:scheme="fbconnect" />
+58-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:33:23-72
+59            </intent-filter>
+60        </activity>
+61        <activity
+61-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:37:9-57:20
+62            android:name="com.example.musketeer_app.MainActivity"
+62-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:38:13-41
+63            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+63-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:42:13-163
+64            android:exported="true"
+64-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:39:13-36
+65            android:hardwareAccelerated="true"
+65-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:43:13-47
+66            android:launchMode="singleTop"
+66-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:40:13-43
+67            android:theme="@style/LaunchTheme"
+67-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:41:13-47
+68            android:windowSoftInputMode="adjustResize" >
+68-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:44:13-55
+69
+70            <!--
+71                 Specifies an Android theme to apply to this Activity as soon as
+72                 the Android process has started. This theme is visible to the user
+73                 while the Flutter UI initializes. After that, this theme continues
+74                 to determine the Window background behind the Flutter UI.
+75            -->
+76            <meta-data
+76-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:49:13-52:17
+77                android:name="io.flutter.embedding.android.NormalTheme"
+77-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:50:15-70
+78                android:resource="@style/NormalTheme" />
+78-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:51:15-52
+79
+80            <intent-filter>
+80-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:53:13-56:29
+81                <action android:name="android.intent.action.MAIN" />
+81-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:54:17-68
+81-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:54:25-66
+82
+83                <category android:name="android.intent.category.LAUNCHER" />
+83-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:55:17-76
+83-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:55:27-74
+84            </intent-filter>
+85        </activity>
+86        <!--
+87             Don't delete the meta-data below.
+88             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+89        -->
+90        <meta-data
+90-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:60:9-62:33
+91            android:name="flutterEmbedding"
+91-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:61:13-44
+92            android:value="2" />
+92-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:62:13-30
+93
+94        <service
+94-->[:firebase_auth] C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+95            android:name="com.google.firebase.components.ComponentDiscoveryService"
+95-->[:firebase_auth] C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+96            android:directBootAware="true"
+96-->[com.google.firebase:firebase-common:20.3.2] C:\Users\HP\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:34:13-43
+97            android:exported="false" >
+97-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:68:13-37
+98            <meta-data
+98-->[:firebase_auth] C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+99                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
+99-->[:firebase_auth] C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+100                android:value="com.google.firebase.components.ComponentRegistrar" />
+100-->[:firebase_auth] C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\build\firebase_auth\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+101            <meta-data
+101-->[:firebase_core] C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+102                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+102-->[:firebase_core] C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+103                android:value="com.google.firebase.components.ComponentRegistrar" />
+103-->[:firebase_core] C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+104            <meta-data
+104-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:69:13-71:85
+105                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+105-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:70:17-109
+106                android:value="com.google.firebase.components.ComponentRegistrar" />
+106-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:71:17-82
+107        </service>
+108
+109        <activity
+109-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:29:9-46:20
+110            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+110-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:30:13-80
+111            android:excludeFromRecents="true"
+111-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:31:13-46
+112            android:exported="true"
+112-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:32:13-36
+113            android:launchMode="singleTask"
+113-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:33:13-44
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+114-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:34:13-72
+115            <intent-filter>
+115-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:35:13-45:29
+116                <action android:name="android.intent.action.VIEW" />
+116-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:30:17-69
+116-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:30:25-66
+117
+118                <category android:name="android.intent.category.DEFAULT" />
+118-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:31:17-76
+118-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:31:27-73
+119                <category android:name="android.intent.category.BROWSABLE" />
+119-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:32:17-78
+119-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:32:27-75
+120
+121                <data
+121-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:33:17-75
+122                    android:host="firebase.auth"
+123                    android:path="/"
+124                    android:scheme="genericidp" />
+124-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:33:23-72
+125            </intent-filter>
+126        </activity>
+127        <activity
+127-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:47:9-64:20
+128            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+128-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:48:13-79
+129            android:excludeFromRecents="true"
+129-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:49:13-46
+130            android:exported="true"
+130-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:50:13-36
+131            android:launchMode="singleTask"
+131-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:51:13-44
+132            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+132-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:52:13-72
+133            <intent-filter>
+133-->[com.google.firebase:firebase-auth:22.0.0] C:\Users\HP\.gradle\caches\transforms-3\e7f0c2ccca178a16202bce082979d5e1\transformed\jetified-firebase-auth-22.0.0\AndroidManifest.xml:53:13-63:29
+134                <action android:name="android.intent.action.VIEW" />
+134-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:30:17-69
+134-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:30:25-66
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:31:17-76
+136-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:31:27-73
+137                <category android:name="android.intent.category.BROWSABLE" />
+137-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:32:17-78
+137-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:32:27-75
+138
+139                <data
+139-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:33:17-75
+140                    android:host="firebase.auth"
+141                    android:path="/"
+142                    android:scheme="recaptcha" />
+142-->C:\Users\HP\Downloads\Musketeer-project-LoginPage\Musketeer-project-LoginPage\android\app\src\main\AndroidManifest.xml:33:23-72
+143            </intent-filter>
+144        </activity>
+145
+146        <uses-library
+146-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+147            android:name="androidx.window.extensions"
+147-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+148            android:required="false" />
+148-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+149        <uses-library
+149-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+150            android:name="androidx.window.sidecar"
+150-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+151            android:required="false" />
+151-->[androidx.window:window:1.0.0-beta04] C:\Users\HP\.gradle\caches\transforms-3\40ff8c014bc3b03149787e1d45a42dea\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+152
+153        <provider
+153-->[com.google.firebase:firebase-common:20.3.2] C:\Users\HP\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:25:9-30:39
+154            android:name="com.google.firebase.provider.FirebaseInitProvider"
+154-->[com.google.firebase:firebase-common:20.3.2] C:\Users\HP\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:26:13-77
+155            android:authorities="com.example.musketeer_app.firebaseinitprovider"
+155-->[com.google.firebase:firebase-common:20.3.2] C:\Users\HP\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:27:13-72
+156            android:directBootAware="true"
+156-->[com.google.firebase:firebase-common:20.3.2] C:\Users\HP\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:28:13-43
+157            android:exported="false"
+157-->[com.google.firebase:firebase-common:20.3.2] C:\Users\HP\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:29:13-37
+158            android:initOrder="100" />
+158-->[com.google.firebase:firebase-common:20.3.2] C:\Users\HP\.gradle\caches\transforms-3\026de80ea9d0b63bfc94ec9a10c1d73c\transformed\jetified-firebase-common-20.3.2\AndroidManifest.xml:30:13-36
+159
+160        <activity android:name="com.facebook.CustomTabMainActivity" />
+160-->[com.facebook.android:facebook-common:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\464eb365ad63b525b3cc1cfc47abc57b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:26:9-71
+160-->[com.facebook.android:facebook-common:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\464eb365ad63b525b3cc1cfc47abc57b\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:26:19-68
+161        <activity
+161-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\HP\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:23:9-27:75
+162            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+162-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\HP\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:24:13-93
+163            android:excludeFromRecents="true"
+163-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\HP\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:25:13-46
+164            android:exported="false"
+164-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\HP\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:26:13-37
+165            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+165-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\HP\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:27:13-72
+166        <!--
+167            Service handling Google Sign-In user revocation. For apps that do not integrate with
+168            Google Sign-In, this service will never be started.
+169        -->
+170        <service
+170-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\HP\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:33:9-37:51
+171            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+171-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\HP\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:34:13-89
+172            android:exported="true"
+172-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\HP\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:35:13-36
+173            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+173-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\HP\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:36:13-107
+174            android:visibleToInstantApps="true" />
+174-->[com.google.android.gms:play-services-auth:20.5.0] C:\Users\HP\.gradle\caches\transforms-3\25f7820b621fcbf069b2cb31fcba42e2\transformed\jetified-play-services-auth-20.5.0\AndroidManifest.xml:37:13-48
+175
+176        <activity
+176-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+177            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+177-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+178            android:exported="false"
+178-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+179-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\8f31701e663a8c1514b353cc4d7239a2\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+180
+181        <meta-data
+181-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\HP\.gradle\caches\transforms-3\c32180eb77f1d8ab3c20810eb5f11a42\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:21:9-23:69
+182            android:name="com.google.android.gms.version"
+182-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\HP\.gradle\caches\transforms-3\c32180eb77f1d8ab3c20810eb5f11a42\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:22:13-58
+183            android:value="@integer/google_play_services_version" />
+183-->[com.google.android.gms:play-services-basement:18.2.0] C:\Users\HP\.gradle\caches\transforms-3\c32180eb77f1d8ab3c20810eb5f11a42\transformed\jetified-play-services-basement-18.2.0\AndroidManifest.xml:23:13-66
+184        <!--
+185         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+186         with the application context. This config is merged in with the host app's manifest,
+187         but there can only be one provider with the same authority activated at any given
+188         point; so if the end user has two or more different apps that use Facebook SDK, only the
+189         first one will be able to use the provider. To work around this problem, we use the
+190         following placeholder in the authority to identify each host application as if it was
+191         a completely different provider.
+192        -->
+193        <provider
+193-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:29:9-32:40
+194            android:name="com.facebook.internal.FacebookInitProvider"
+194-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:30:13-70
+195            android:authorities="com.example.musketeer_app.FacebookInitProvider"
+195-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:31:13-72
+196            android:exported="false" />
+196-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:32:13-37
+197
+198        <receiver
+198-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:34:9-40:20
+199            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+199-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:35:13-86
+200            android:exported="false" >
+200-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:36:13-37
+201            <intent-filter>
+201-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:37:13-39:29
+202                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+202-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:38:17-95
+202-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:38:25-92
+203            </intent-filter>
+204        </receiver>
+205        <receiver
+205-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:41:9-47:20
+206            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+206-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:42:13-118
+207            android:exported="false" >
+207-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:43:13-37
+208            <intent-filter>
+208-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:44:13-46:29
+209                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+209-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:45:17-103
+209-->[com.facebook.android:facebook-core:16.0.1] C:\Users\HP\.gradle\caches\transforms-3\058709bf7f642ab3eea9c1f82cbb2244\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:45:25-100
+210            </intent-filter>
+211        </receiver>
+212    </application>
+213
+214</manifest>

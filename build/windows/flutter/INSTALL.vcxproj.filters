@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Prabin\Desktop\flutter_projects\Musketeer-project-LoginPage\build\windows\CMakeFiles\a19d7463a096a9c03a397fb4f152c3f8\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{327D9138-3C00-379C-A4AE-E8F119456844}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
